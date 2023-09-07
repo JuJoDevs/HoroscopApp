@@ -32,6 +32,6 @@
         <!--suppress NavigationFile -->
         <argument
             android:name="type"
-            app:argType="com.jujodevs.horoscapp.domain.HoroscopeModel" />
+            app:argType="com.jujodevs.horoscapp.domain.model.HoroscopeModel" />
     </activity>
 </navigation>

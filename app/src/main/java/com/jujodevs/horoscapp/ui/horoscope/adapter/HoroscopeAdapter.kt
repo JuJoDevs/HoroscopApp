@@ -5,10 +5,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.jujodevs.horoscapp.databinding.ItemHoroscopeBinding
-import com.jujodevs.horoscapp.domain.HoroscopeInfo
+import com.jujodevs.horoscapp.domain.model.HoroscopeInfo
 
 class HoroscopeAdapter(private var horoscopeList: List<HoroscopeInfo> = emptyList(),
-    private val onItemSelected:(HoroscopeInfo) -> Unit): RecyclerView.Adapter<HoroscopeViewHolder>() {
+                       private val onItemSelected:(HoroscopeInfo) -> Unit): RecyclerView.Adapter<HoroscopeViewHolder>() {
 
     @SuppressLint("NotifyDataSetChanged")
     fun updateList(list:List<HoroscopeInfo>){

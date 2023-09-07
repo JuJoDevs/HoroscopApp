@@ -2,7 +2,7 @@ package com.jujodevs.horoscapp.ui.horoscope
 
 import androidx.lifecycle.ViewModel
 import com.jujodevs.horoscapp.data.providers.HoroscopeProvider
-import com.jujodevs.horoscapp.domain.HoroscopeInfo
+import com.jujodevs.horoscapp.domain.model.HoroscopeInfo
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

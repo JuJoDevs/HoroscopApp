@@ -1,7 +1,7 @@
 package com.jujodevs.horoscapp.data.providers
 
-import com.jujodevs.horoscapp.domain.HoroscopeInfo
-import com.jujodevs.horoscapp.domain.HoroscopeInfo.*
+import com.jujodevs.horoscapp.domain.model.HoroscopeInfo
+import com.jujodevs.horoscapp.domain.model.HoroscopeInfo.*
 import javax.inject.Inject
 
 class HoroscopeProvider @Inject constructor() {
