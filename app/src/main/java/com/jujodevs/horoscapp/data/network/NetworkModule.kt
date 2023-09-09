@@ -1,5 +1,6 @@
 package com.jujodevs.horoscapp.data.network
 
+import com.jujodevs.horoscapp.BuildConfig.BASE_URL
 import com.jujodevs.horoscapp.data.RepositoryImpl
 import com.jujodevs.horoscapp.data.core.interceptors.AuthInterceptor
 import com.jujodevs.horoscapp.domain.Repository
@@ -22,7 +23,7 @@ object NetworkModule {
     fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit =
         Retrofit
             .Builder()
-            .baseUrl("https://newastro.vercel.app/")
+            .baseUrl(BASE_URL)
             .client(okHttpClient)
             .addConverterFactory(GsonConverterFactory.create())
             .build()

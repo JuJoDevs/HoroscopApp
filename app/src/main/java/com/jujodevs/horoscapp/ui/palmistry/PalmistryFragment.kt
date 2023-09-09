@@ -70,7 +70,7 @@ class PalmistryFragment : FragmentBinding<FragmentPalmistryBinding>() {
         )
     }
 
-    fun checkCameraPermission(): Boolean{
+    private fun checkCameraPermission(): Boolean{
         return PermissionChecker.checkSelfPermission(requireContext(), CAMERA_PERMISSION) == PermissionChecker.PERMISSION_GRANTED
     }
 
