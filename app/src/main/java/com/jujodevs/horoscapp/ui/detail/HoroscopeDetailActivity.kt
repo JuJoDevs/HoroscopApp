@@ -67,18 +67,18 @@ class HoroscopeDetailActivity : AppCompatActivity() {
         binding.tvBody.text = state.prediction
 
         val image = when(state.horoscopeModel){
-            HoroscopeModel.Aries -> R.drawable.aries
-            HoroscopeModel.Taurus -> R.drawable.tauro
-            HoroscopeModel.Gemini -> R.drawable.geminis
-            HoroscopeModel.Cancer -> R.drawable.cancer
-            HoroscopeModel.Leo -> R.drawable.leo
-            HoroscopeModel.Virgo -> R.drawable.virgo
-            HoroscopeModel.Libra -> R.drawable.libra
-            HoroscopeModel.Scorpio -> R.drawable.escorpio
-            HoroscopeModel.Sagittarius -> R.drawable.sagitario
-            HoroscopeModel.Capricorn -> R.drawable.capricornio
-            HoroscopeModel.Aquarius -> R.drawable.aquario
-            HoroscopeModel.Pisces -> R.drawable.piscis
+            HoroscopeModel.Aries -> R.drawable.detail_aries
+            HoroscopeModel.Taurus -> R.drawable.detail_taurus
+            HoroscopeModel.Gemini -> R.drawable.detail_gemini
+            HoroscopeModel.Cancer -> R.drawable.detail_cancer
+            HoroscopeModel.Leo -> R.drawable.detail_leo
+            HoroscopeModel.Virgo -> R.drawable.detail_virgo
+            HoroscopeModel.Libra -> R.drawable.detail_libra
+            HoroscopeModel.Scorpio -> R.drawable.detail_scorpio
+            HoroscopeModel.Sagittarius -> R.drawable.detail_sagittarius
+            HoroscopeModel.Capricorn -> R.drawable.detail_capricorn
+            HoroscopeModel.Aquarius -> R.drawable.detail_aquarius
+            HoroscopeModel.Pisces -> R.drawable.detail_pisces
         }
 
         binding.ivDetail.setImageResource(image)
